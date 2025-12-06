@@ -92,7 +92,8 @@ function renderProjects() {
     projectsContainer.appendChild(card);
   });
 }
-
+  renderProjects();
+  
 // Handle image upload
 uploadImage.addEventListener("change", (e) => {
   const file = e.target.files[0];
@@ -148,7 +149,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 // Initial render
-renderProjects();
+
 
 
 
