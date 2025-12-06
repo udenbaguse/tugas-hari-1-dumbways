@@ -1,6 +1,6 @@
 export let projects = [
   {
-    id  : 1,
+    id: 1,
     name: "DocLab",
     startDate: "2023-01-01",
     endDate: "2023-01-31",
@@ -10,7 +10,7 @@ export let projects = [
     image: "../assets/images/doclab.png",
   },
   {
-    id  : 2,
+    id: 2,
     name: "CozyNestt",
     startDate: "2023-02-01",
     endDate: "2023-02-28",
@@ -20,7 +20,7 @@ export let projects = [
     image: "../assets/images/cozynestt-ecommerce.png",
   },
   {
-    id  : 3,
+    id: 3,
     name: "Grilli",
     startDate: "2023-03-01",
     endDate: "2023-03-31",
@@ -30,7 +30,7 @@ export let projects = [
     image: "../assets/images/grilli-restaurant.png",
   },
   {
-    id  : 4,
+    id: 4,
     name: "Travella",
     startDate: "2023-04-01",
     endDate: "2023-04-30",
@@ -40,7 +40,7 @@ export let projects = [
     image: "../assets/images/travella.png",
   },
   {
-    id  : 5,
+    id: 5,
     name: "Wealth Home",
     startDate: "2023-05-01",
     endDate: "2023-05-31",

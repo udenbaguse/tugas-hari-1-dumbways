@@ -4,13 +4,12 @@ export function handleFormSubmit(projects, renderProjects, selectedImage) {
   const submitBtn = document.getElementById("submitBtn");
   const uploadImage = document.getElementById("uploadImage");
 
-
   uploadImage.addEventListener("change", (e) => {
-  const file = e.target.files[0];
-  if (file) {
-    selectedImage = URL.createObjectURL(file);
-  }
-});
+    const file = e.target.files[0];
+    if (file) {
+      selectedImage = URL.createObjectURL(file);
+    }
+  });
 
   submitBtn.addEventListener("click", () => {
     const projectName = document.getElementById("projectName").value.trim();
@@ -20,14 +19,13 @@ export function handleFormSubmit(projects, renderProjects, selectedImage) {
     const technologies = [
       ...document.querySelectorAll(".tech-checkbox:checked"),
     ].map((checkbox) => checkbox.value);
-    
 
     // Validation
     if (!projectName || !startDate || !endDate || technologies.length === 0) {
       alert(
         "Formnya diisi semua yaa, minimal harus ada nama project, tanggal mulai, tanggal selesai, dan teknologi yang digunakan lah Boss!"
       );
-    }else{
+    } else {
       alert("Data project berhasil ditambahkan!");
     }
 

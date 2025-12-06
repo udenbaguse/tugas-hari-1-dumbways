@@ -1,4 +1,3 @@
-// render.js
 import { createProjectCard } from "./card.js";
 
 export function renderProjects(projects, projectsContainer) {
@@ -9,4 +8,3 @@ export function renderProjects(projects, projectsContainer) {
     projectsContainer.appendChild(card);
   });
 }
-
